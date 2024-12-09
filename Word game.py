@@ -37,8 +37,9 @@ def play():
             word_letters.remove(letter)
         else:
             print('Bunday harf yo\'q')
-    print(f"Табриклайман! {word} сўзини {len(user_letters)} та уринишда топдингиз.")
+    print(f"Тabriklayman! {word} so'zini {len(user_letters)} ta urinishda topdinggiz.")
 play()
+
         
 
         
