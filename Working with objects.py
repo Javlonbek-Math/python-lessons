@@ -50,6 +50,11 @@ tosh.add_avto(avto3)
 tosh.add_avto(avto4)
 
 
+def see_methods(klass):
+    return [method for method in dir(klass) if method.startswith('__') is False ]
+print(see_methods(Avto))
+
+
 
 
 
